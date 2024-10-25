@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periódica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            text-align: left; /* Alinea el texto a la izquierda */
+        }
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .element {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .element:hover {
+            background-color: #f1f1f1;
+        }
+        footer {
+            background-color: #4CAF50; 
+            color: white;
+            text-align: center;
+            padding: 20px; 
+            position: relative; 
+            margin-top: 20px; 
+        }
+        footer p {
+            margin: 5px 0; 
+        }
+        .centered {
+            display: flex;
+            justify-content: center; /* Centra el contenido horizontalmente */
+            margin: 20px 0; /* Espacio alrededor de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabla Periódica de los Elementos</h1>
+    </header>
+    <nav>
+        <a href="file:///D:/Metal%20alcalinos%20.html">Metales Alcalinos</a>
+        <a href="file:///D:/Metal%20de%20tierra%20alcalina%20.html">Metales de tierra alcalina</a>
+        <a href="file:///C:/Users/quint/Documents/Metales%20de%20Transici%C3%B3n.html">Metales de Trancision</a>
+        <a href="file:///C:/Users/quint/Documents/Otros%20metales.html">Otros metales</a>
+        <a href="file:///C:/Users/quint/Documents/Metaloides.html">Metaloides</a>
+        <a href="file:///D:/No%20metales.html">No metales</a>
+        <a href="file:///C:/Users/quint/Documents/Halogenos.html">Halogenos</a>
+        <a href="file:///D:/Gases%20Nobles.html">Gases Nobles</a>
+        <a href="file:///D:/Lant%C3%A0nidos%20-%20copia.html">Lantánidos</a>
+        <a href="file:///C:/Users/quint/Documents/Actinidos.html">Actínidos</a>
+        <a href="file:///D:/Propiedades%20Quimicas%20Desconocidas.html">Propiedades químicas desconocidas</a>
+    </nav>
+
+    <div class="content">
+        <h2 style="text-align: center;">Bienvenido a la Tabla Periódica</h2>
+        <p style="text-align: center;">Selecciona un grupo de la tabla periódica en la barra de navegación para más información detallada.</p>
+        <div class="centered">
+            <img src="C:\Users\quint\Downloads\WhatsApp Image 2024-10-24 at 9.11.32 PM.jpeg" alt="Tabla Periódica de los Elementos" style="width: 600px; height: auto;" />
+        </div>
+        <p>La tabla periódica contiene los 118 elementos conocidos que se organizan en filas (llamadas períodos) y columnas (llamadas grupos) según sus propiedades químicas.</p>
+        <p>La tabla periódica es una representación tabular de los elementos químicos, organizada de manera que se reflejan sus propiedades y la relación entre ellos. Aquí tienes información clave sobre la tabla periódica:</p>
+
+        <h4>Estructura de la Tabla Periódica</h4>
+        <h5>Elementos:</h5>
+        <p>La tabla contiene más de 118 elementos químicos, cada uno representado por un símbolo químico (por ejemplo, H para hidrógeno, O para oxígeno).</p>
+
+        <h5>Filas y Columnas:</h5>
+        <p>La tabla periódica es una representación ordenada de los elementos químicos, organizada en filas y columnas que reflejan la relación y las propiedades de estos elementos. En este contexto, las filas se conocen como períodos y las columnas como grupos o familias. Las filas, o períodos, son líneas horizontales que indican el nivel de energía de los electrones en los átomos de los elementos. A medida que avanzas de izquierda a derecha a lo largo de un período, el número de protones y electrones en cada elemento aumenta, lo que provoca cambios en las propiedades químicas y físicas. Por ejemplo, en el primer período, solo se encuentran dos elementos: el hidrógeno y el helio. A medida que se avanza hacia el segundo período, se pueden observar elementos que presentan diferentes características, como los metales, no metales y gases nobles.</p>
+
+        <p>Las columnas, o grupos, son agrupaciones verticales de elementos que comparten propiedades químicas similares debido a la configuración de sus electrones en la capa más externa, conocida como la capa de valencia. Por ejemplo, los elementos del Grupo 1, que incluyen el litio, sodio y potasio, son metales alcalinos altamente reactivos. En cambio, los elementos del Grupo 18, como el helio, neón y argón, son gases nobles que poseen una configuración electrónica estable, lo que los hace muy poco reactivos.</p>
+
+        <p>Cada grupo en la tabla periódica revela tendencias en las propiedades de los elementos, como la reactividad, el punto de fusión y la electronegatividad. Esta organización permite a los científicos predecir cómo se comportarán ciertos elementos en reacciones químicas y cómo se combinarán entre sí.</p>
+
+        <p>En resumen, las filas y columnas de la tabla periódica no solo estructuran los elementos de manera lógica, sino que también proporcionan una valiosa información sobre sus características y relaciones. Esta organización es fundamental para comprender la química y el comportamiento de los elementos en el mundo natural.</p>
+
+        <h5>Bloques: La tabla se divide en bloques:</h5>
+        <p>Bloque s: Incluye los grupos 1 y 2.</p>
+        <p>Bloque p: Incluye los grupos 13 a 18.</p>
+        <p>Bloque d: Incluye los metales de transición.</p>
+        <p>Bloque f: Incluye los lantánidos y actínidos.</p>
+
+        <h5>Propiedades de los Elementos</h5>
+        <p>Metales, No Metales y Metaloides: Los elementos se clasifican en metales (a la izquierda), no metales (a la derecha) y metaloides (en la línea de separación).</p>
+
+        <h5>Estado Físico:</h5>
+        <p>La mayoría de los elementos son sólidos a temperatura ambiente, excepto el mercurio (Hg), que es un líquido, y varios gases como el oxígeno (O) y el nitrógeno (N).</p>
+
+        <h5>Desarrollo:</h5>
+        <p>La primera tabla periódica fue creada por Dmitri Mendeléyev en 1869. Él organizó los elementos conocidos según sus propiedades y masas atómicas, dejando espacios para elementos aún no descubiertos.</p>
+
+        <h5>Mejoras:</h5>
+        <p>A lo largo del tiempo, la tabla ha sido modificada y mejorada, incorporando la teoría atómica moderna y la organización por número atómico en lugar de masa atómica.</p>
+
+        <h5>Importancia</h5>
+        <p>La tabla periódica es fundamental en la química y otras ciencias. Proporciona una base para entender la naturaleza de los elementos y sus interacciones, y es una herramienta clave para la investigación y la educación en ciencias.</p>
+    </div>
+
+    <footer>
+        <p>Química Industrial - QI03SM-24</p>
+        <p>Alondra Hazel Quintana Sánchez</p>
+        <p>Isabela Vázquez Molina</p>
+        <p>Karol Fuentes Herrera</p>
+        <p>Itzel Treviño Lozano</p>
+        <p>Mayte Mendoza Márquez</p>
+        <p>Alexandra Laguna García</
+
+    </footer>
+</body>
+</html>
